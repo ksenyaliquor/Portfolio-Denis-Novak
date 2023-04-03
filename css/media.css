@@ -1,0 +1,36 @@
+@media(max-width:480px) {
+
+    .burger {
+      display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        right: -350px;
+        width: 350px;
+        visibility: hidden;
+        background-color: violet;
+    }
+
+    .nav__list {
+        display: block;
+        padding-top: 66px;
+        padding-left: 35px;
+    }
+
+    .nav__item {
+        margin-bottom: 66px;
+    }
+
+
+    .hero__block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero__language-change {
+        display: none;
+    }
+    
+}
